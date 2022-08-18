@@ -69,5 +69,16 @@ namespace TestProject1
 
             Assert.IsTrue(actual);
         }
+        [TestMethod]
+        public void User_Valid_All_Sample_Email()
+        {
+            User valid = new User();
+            bool actual = valid.AllSampleEmail("Mohan145@gmail.com");
+           // bool actual2 = valid.AllSampleEmail("abc.xyz@bl.co.in");
+
+
+            Assert.IsTrue(actual);
+            //Assert.IsTrue(actual2);
+        }
     }
 }
