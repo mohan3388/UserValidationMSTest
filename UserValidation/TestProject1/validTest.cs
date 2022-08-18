@@ -37,5 +37,13 @@ namespace TestProject1
 
             Assert.IsTrue(actual);
         }
+        [TestMethod]
+        public void User_Valid_Pass()
+        {
+            User valid = new User();
+            bool actual = valid.PassValidation("nohansahu");
+
+            Assert.IsTrue(actual);
+        }
     }
 }
