@@ -14,5 +14,9 @@ namespace UserValidation
         {
             return Regex.IsMatch(name, REGEX_PATTERN);
         }
+        public bool LNameValidation(string lname)
+        {
+            return Regex.IsMatch(lname, REGEX_PATTERN);
+        }
     }
 }
