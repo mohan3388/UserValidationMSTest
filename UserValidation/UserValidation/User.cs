@@ -14,6 +14,7 @@ namespace UserValidation
         public static string MOBILE_REGEX_PATTERN = "^[91]{2}[' ']{1}[7898625487]{10}$";
         public static string PASS_REGEX_PATTERN = "^[A-Za-z]{8,}";
         public static string PASS_REGEX_PATTERN2 = "^[A-Z]{1,}[A-Za-z]{8,}";
+        public static string PASS_REGEX_PATTERN3 = "^[A-Z]{1,}[A-Za-z]{6,}[0-9]{1,}";
         public bool FNameValidation(string name)
         {
             return Regex.IsMatch(name, REGEX_PATTERN);
@@ -37,6 +38,10 @@ namespace UserValidation
         public bool PassIncludeOneUppercase(string pass)
         {
             return Regex.IsMatch(pass, PASS_REGEX_PATTERN2);
+        }
+        public bool PassIncludeOneNumeric(string pass)
+        {
+            return Regex.IsMatch(pass, PASS_REGEX_PATTERN3);
         }
     }
 }

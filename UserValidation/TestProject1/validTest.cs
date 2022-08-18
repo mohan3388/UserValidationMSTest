@@ -53,5 +53,13 @@ namespace TestProject1
 
             Assert.IsTrue(actual);
         }
+        [TestMethod]
+        public void User_Valid_Pass_Include_One_Numeric()
+        {
+            User valid = new User();
+            bool actual = valid.PassIncludeOneNumeric("Mohansa12");
+
+            Assert.IsTrue(actual);
+        }
     }
 }
