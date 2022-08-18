@@ -61,5 +61,13 @@ namespace TestProject1
 
             Assert.IsTrue(actual);
         }
+        [TestMethod]
+        public void User_Valid_Pass_Include_One_SpecialChar()
+        {
+            User valid = new User();
+            bool actual = valid.PassIncludeOneSpecialChar("Mohans@12");
+
+            Assert.IsTrue(actual);
+        }
     }
 }
