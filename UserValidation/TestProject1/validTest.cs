@@ -45,5 +45,13 @@ namespace TestProject1
 
             Assert.IsTrue(actual);
         }
+        [TestMethod]
+        public void User_Valid_Pass_Include_One_Upprcase()
+        {
+            User valid = new User();
+            bool actual = valid.PassIncludeOneUppercase("Mohansahu");
+
+            Assert.IsTrue(actual);
+        }
     }
 }
