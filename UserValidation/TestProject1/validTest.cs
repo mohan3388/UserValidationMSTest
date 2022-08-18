@@ -21,5 +21,13 @@ namespace TestProject1
 
             Assert.IsTrue(actual);
         }
+        [TestMethod]
+        public void User_Valid_email()
+        {
+            User valid = new User();
+            bool actual = valid.EmailValidation("abc.xyz@bl.co.in");
+
+            Assert.IsTrue(actual);
+        }
     }
 }
