@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserValidation", "UserValidation\UserValidation.csproj", "{64D30DB4-966A-4F23-B45D-D6E1EFBACF17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationTest", "ValidationTest\ValidationTest.csproj", "{72F3D56B-1B73-4098-9386-C7AA173F16B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationTest", "TestProject1\ValidationTest.csproj", "{F9C5165B-C307-47FD-AE7F-990C4028AC4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{64D30DB4-966A-4F23-B45D-D6E1EFBACF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64D30DB4-966A-4F23-B45D-D6E1EFBACF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64D30DB4-966A-4F23-B45D-D6E1EFBACF17}.Release|Any CPU.Build.0 = Release|Any CPU
-		{72F3D56B-1B73-4098-9386-C7AA173F16B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{72F3D56B-1B73-4098-9386-C7AA173F16B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{72F3D56B-1B73-4098-9386-C7AA173F16B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{72F3D56B-1B73-4098-9386-C7AA173F16B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9C5165B-C307-47FD-AE7F-990C4028AC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9C5165B-C307-47FD-AE7F-990C4028AC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9C5165B-C307-47FD-AE7F-990C4028AC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9C5165B-C307-47FD-AE7F-990C4028AC4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
